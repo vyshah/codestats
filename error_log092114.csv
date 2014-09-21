@@ -1,0 +1,73 @@
+/home/vyshah/Projects/codechecker/Hilo/C++/Annotator/PointAnimation.h,portability,unnecessaryQualification,The extra qualification 'PointAnimation::' is unnecessary and is considered an error by many compilers.
+/home/vyshah/Projects/codechecker/Hilo/C++/Annotator/ImageEditor.h,portability,unnecessaryQualification,The extra qualification 'ImageEditorHandler::' is unnecessary and is considered an error by many compilers.
+/home/vyshah/Projects/codechecker/Hilo/C++/Annotator/ImageEditor.cpp,warning,uninitMemberVar,Member variable 'ImageEditorHandler::m_prevDrawingOperationType' is not initialized in the constructor.
+/home/vyshah/Projects/codechecker/Hilo/C++/Annotator/ImageEditor.cpp,warning,uninitMemberVar,Member variable 'ImageEditorHandler::m_startClipping' is not initialized in the constructor.
+/home/vyshah/Projects/codechecker/Hilo/C++/Annotator/ImageEditor.cpp,warning,uninitMemberVar,Member variable 'ImageEditorHandler::m_totalFramesRendered' is not initialized in the constructor.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoader/AsyncLoader.cpp,performance,redundantAssignment,Variable 'tempHr' is reassigned a value before the old one has been used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoader/AsyncLoaderLayoutManager.cpp,warning,selfAssignment,Redundant assignment of 'm_currentPageStart' to itself.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailInfo.h,performance,redundantAssignment,Variable 'hr' is reassigned a value before the old one has been used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/BrowserApplication.cpp,warning,uninitMemberVar,Member variable 'BrowserApplication::m_carouselPaneIndex' is not initialized in the constructor.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/BrowserApplication.cpp,warning,uninitMemberVar,Member variable 'BrowserApplication::m_mediaPaneIndex' is not initialized in the constructor.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailLayoutInterface.h,warning,uninitMemberVar,Member variable 'ThumbnailCell::selectionState' is not initialized in the constructor.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/CarouselPane.cpp,warning,uninitMemberVar,Member variable 'CarouselPaneMessageHandler::m_totalFramesRendered' is not initialized in the constructor.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/CarouselThumbnailAnimation.cpp,performance,redundantAssignment,Variable 'hr' is reassigned a value before the old one has been used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/FlickrUploader.cpp,style,variableScope,The scope of the variable 'mimeBoundary' can be reduced.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ImageThumbnailControl.cpp,style,variableScope,The scope of the variable 'opacity' can be reduced.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ImageThumbnailControl.cpp,style,variableScope,The scope of the variable 'radius' can be reduced.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/MediaPane.cpp,error,syntaxError,syntax error
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailImpl.cpp,warning,uninitMemberVar,Member variable 'Thumbnail::m_fontSize' is not initialized in the constructor.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailImpl.cpp,warning,uninitMemberVar,Member variable 'Thumbnail::m_opacity' is not initialized in the constructor.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailImpl.cpp,warning,uninitMemberVar,Member variable 'Thumbnail::m_isFullImage' is not initialized in the constructor.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailLayoutManager.cpp,warning,uninitMemberVar,Member variable 'ThumbnailLayoutManager::m_previousRenderingStartImageIndex' is not initialized in the constructor.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailLayoutManager.cpp,warning,uninitMemberVar,Member variable 'ThumbnailLayoutManager::m_previousItemCount' is not initialized in the constructor.
+/home/vyshah/Projects/codechecker/Hilo/C++/Common/source/ShellItemsLoader.cpp,error,syntaxError,syntax error
+/home/vyshah/Projects/codechecker/Hilo/C++/Common/source/direct2dutility.cpp,performance,redundantAssignment,Variable 'hr' is reassigned a value before the old one has been used.
+/home/vyshah/Projects/codechecker/Hilo/C++/RegistrationHelper/FileRegistration.cpp,performance,redundantAssignment,Variable 'hr' is reassigned a value before the old one has been used.
+/home/vyshah/Projects/codechecker/Hilo/C++/RegistrationHelper/FileRegistration.cpp,performance,useInitializationList,Variable 'm_progId' is assigned in constructor body. Consider performing initialization in initialization list.
+/home/vyshah/Projects/codechecker/Hilo/C++/RegistrationHelper/FileRegistration.cpp,performance,useInitializationList,Variable 'm_appPath' is assigned in constructor body. Consider performing initialization in initialization list.
+/home/vyshah/Projects/codechecker/Hilo/C++/RegistrationHelper/FileRegistration.cpp,performance,useInitializationList,Variable 'm_friendlyName' is assigned in constructor body. Consider performing initialization in initialization list.
+/home/vyshah/Projects/codechecker/Hilo/C++/RegistrationHelper/FileRegistration.cpp,performance,useInitializationList,Variable 'm_userModelID' is assigned in constructor body. Consider performing initialization in initialization list.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailLayoutManager.cpp,style,unusedFunction,The function 'BeginSlideShowPan' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailLayoutManager.cpp,style,unusedFunction,The function 'CreateLayout' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailLayoutManager.cpp,style,unusedFunction,The function 'EndSlideShowPan' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Annotator/UICommandHandler.cpp,style,unusedFunction,The function 'Execute' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/FlyerAnimation.cpp,style,unusedFunction,The function 'GetAnimatedThumbnailCells' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/FlyerAnimation.cpp,style,unusedFunction,The function 'GetAnimationPosition' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoaderHelper.cpp,style,unusedFunction,The function 'GetAsyncLoader' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Common/source/WindowLayout.cpp,style,unusedFunction,The function 'GetChildWindow' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Common/source/WindowLayout.cpp,style,unusedFunction,The function 'GetChildWindowCount' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Common/source/WindowLayout.cpp,style,unusedFunction,The function 'GetChildWindowLayoutHeight' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Common/source/windowimpl.cpp,style,unusedFunction,The function 'GetLargeIcon' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailLayoutManager.cpp,style,unusedFunction,The function 'GetPanState' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Common/source/windowimpl.cpp,style,unusedFunction,The function 'GetSmallIcon' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailLayoutManager.cpp,style,unusedFunction,The function 'GetThumbnailSize' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Common/source/windowimpl.cpp,style,unusedFunction,The function 'GetTitle' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailLayoutManager.cpp,style,unusedFunction,The function 'GetVisibleThumbnailRange' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Annotator/PropertySet.cpp,style,unusedFunction,The function 'InitializeCommandProperties' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Annotator/AnnotatorApplication.cpp,style,unusedFunction,The function 'OnCreateUICommand' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Annotator/AnnotatorApplication.cpp,style,unusedFunction,The function 'OnDestroyUICommand' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Annotator/AnnotatorApplication.cpp,style,unusedFunction,The function 'OnViewChanged' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoaderHelper.cpp,style,unusedFunction,The function 'PauseBackgroundLoading' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoader/LoadableItemList.cpp,style,unusedFunction,The function 'ResetOnAdd' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoaderHelper.cpp,style,unusedFunction,The function 'ResumeBackgroundLoading' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoaderHelper.cpp,style,unusedFunction,The function 'Scroll' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailLayoutManager.cpp,style,unusedFunction,The function 'SetArrowGutterSize' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoader/AsyncLoaderLayoutManager.cpp,style,unusedFunction,The function 'SetNextPagePercentage' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoader/AsyncLoaderLayoutManager.cpp,style,unusedFunction,The function 'SetPreviousPagePercentage' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoader/AsyncLoaderMemoryManager.cpp,style,unusedFunction,The function 'SetPrimaryStepDownCount' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoader/AsyncLoaderMemoryManager.cpp,style,unusedFunction,The function 'SetPrimaryStepUpCount' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailLayoutManager.cpp,style,unusedFunction,The function 'SetRenderTargetSize' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoader/AsyncLoaderLayoutManager.cpp,style,unusedFunction,The function 'SetSecondarySizePercentage' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoader/AsyncLoaderMemoryManager.cpp,style,unusedFunction,The function 'SetSecondaryStepDownCountEnd' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoader/AsyncLoaderMemoryManager.cpp,style,unusedFunction,The function 'SetSecondaryStepDownCountStart' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoader/AsyncLoaderMemoryManager.cpp,style,unusedFunction,The function 'SetSecondaryStepUpCountEnd' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoader/AsyncLoaderMemoryManager.cpp,style,unusedFunction,The function 'SetSecondaryStepUpCountStart' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoader/AsyncLoaderMemoryManager.cpp,style,unusedFunction,The function 'SetStepRatio' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailLayoutManager.cpp,style,unusedFunction,The function 'SetTextBoxHeight' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Common/source/WindowApplicationImpl.cpp,style,unusedFunction,The function 'SetWindowFactory' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Common/source/WindowLayout.cpp,style,unusedFunction,The function 'SwitchDisplayMode' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Annotator/UICommandHandler.cpp,style,unusedFunction,The function 'UpdateProperty' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/ThumbnailLayoutManager.cpp,style,unusedFunction,The function 'UpdateVisibleThumbnailControls' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Browser/AsyncLoaderHelper.cpp,style,unusedFunction,The function 'Zoom' is never used.
+/home/vyshah/Projects/codechecker/Hilo/C++/Annotator/Annotator.cpp,style,unusedFunction,The function '_tWinMain' is never used.
+,information,missingInclude,Cppcheck cannot find all the include files (use --check-config for details)
