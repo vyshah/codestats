@@ -275,4 +275,3 @@ if options.email:
     server = smtplib.SMTP(mail_server)
     server.sendmail(mail_sender, mail_recipients, msg)
     server.quit()
-
