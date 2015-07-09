@@ -10,9 +10,9 @@ from datetime import datetime
 from optparse import OptionParser
 
 #e-mail things
-mail_server = "172.31.254.14"
-mail_sender = "nsssmoke@ca.metsci.com"
-mail_recipients_default = ["shahv@ca.metsci.com"]
+mail_server = ""
+mail_sender = ""
+mail_recipients_default = [""]
 mail_subject = "Static Code Analyzer Update"
 
 #where log files should be output
